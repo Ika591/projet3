@@ -1,5 +1,5 @@
 body,html {
-    max-width: 761px;  
+    
     box-sizing: border-box; 
     margin: 0px;
 }
@@ -58,6 +58,7 @@ img {
     padding: 10px 15px;
     border-radius: 25px;
     border: none;
+    background: linear-gradient(#9356DC, #FF79DA);
 }
 
 
