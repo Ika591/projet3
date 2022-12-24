@@ -1,5 +1,5 @@
 body,html {
-    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
     box-sizing: border-box; 
     margin: 0px;
 }
@@ -46,6 +46,11 @@ img {
     text-align: center;
 }
 
+.reservation {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -68,8 +73,8 @@ img {
 
 
 .section2 {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .list {
@@ -77,8 +82,24 @@ img {
     text-align: center;
     border-radius: 15px;
     margin:20px auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.list a {
+    display: flex;
+}
+
+.list p {
+    margin: 0px;
+}
+
+.number {
+    background-color: #9356DC;
+    color: white;
+    border-radius: 100px;
+    padding: 5px 10px;
 }
 
 
