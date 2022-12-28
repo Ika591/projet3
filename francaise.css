@@ -4,8 +4,8 @@ body,html {
     margin: 0px;
 }
 
-img {
-    object-fit: cover;
+.logo p, .plat-img h1, footer h3 p {
+    font-family : 'Shrikhand', cursive ;
 }
 
 h3 {}
