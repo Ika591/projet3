@@ -2,7 +2,10 @@ body,html {
     max-width: 761px;  
     box-sizing: border-box; 
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
+
+
 
 .logo p, .plat-img h1, footer h3 p {
     font-family : 'Shrikhand', cursive ;
@@ -73,10 +76,6 @@ h3 {}
     border-radius: 15px;
 }
 
-.menuleft {
-    flex:5;
-}
-
 .menu h3{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -86,8 +85,17 @@ h3 {}
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 2px;
+}
+
+.menuleft {
+    flex:5;
+}
+
+.menuleft p {
     color: #777;
 }
+
+
 
 .price {
     flex:1;
