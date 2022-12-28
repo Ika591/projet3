@@ -60,10 +60,11 @@ img {
 }
 
 .button {
-    padding: 10px 15px;
+    padding: 12px 17px;
     border-radius: 25px;
     border: none;
     background: linear-gradient(#9356DC, #FF79DA);
+    color: white;
 }
 
 
@@ -89,10 +90,12 @@ img {
 
 .list a {
     display: flex;
+   
 }
 
 .list p {
     margin: 0px;
+    padding-top: 5px;
 }
 
 .number {
