@@ -61,7 +61,11 @@ h3 {}
     position: absolute;
 }
 
-.button {
+.buttondiv {
+    text-align: center;
+}
+
+button {
     padding: 12px 17px;
     border-radius: 25px;
     border: none;
