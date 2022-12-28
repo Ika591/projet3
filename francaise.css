@@ -41,6 +41,7 @@ h3 {}
 .h1div {
     background-color: #F2F2F2;
     display: flex;
+    justify-content: space-between;
     border-top-right-radius: 35px;
     border-top-left-radius: 35px;
     margin-top: 0px;
@@ -54,6 +55,12 @@ h3 {}
     margin-bottom: 0px;
 }
 
+
+
+.fa-heart {
+    padding-right: 30px;
+    font-size: 30px;
+}
 
 /* SECTION */
 
