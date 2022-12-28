@@ -19,10 +19,6 @@ h3 {}
     padding-bottom: 15px;
 }
 
-.logo img {
-    width: 150px;
-}
-
 .plat-img {
    background-image: url(images/restaurants/française.jpg);
    background-size: cover;
@@ -52,7 +48,15 @@ h3 {}
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 30px;
-    padding-top: 40px;
+    padding-top: 15px;
+}
+
+.section1 h2 {
+    color: #777;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .h2-1 {
