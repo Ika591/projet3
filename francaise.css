@@ -5,9 +5,7 @@ body,html {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-.logo p, .plat-img h1, footer h3 p {
+.logo p, .plat-img h1, footer h3 {
     font-family : 'Shrikhand', cursive ;
 }
 
@@ -130,7 +128,7 @@ h3 {}
 }
 
 button {
-    padding: 12px 40px;
+    padding: 13px 40px;
     border-radius: 25px;
     border: none;
     background: linear-gradient(#9356DC, #FF79DA);
@@ -151,6 +149,10 @@ footer {
     color: white;
 }
 
+footer h3 p {
+    font-weight: 300;
+}
+
 footer ul li {
     padding-bottom: 4px;
 }
@@ -162,11 +164,6 @@ footer ul li {
 .fa-hands-helping {
     font-size: small;
     padding-right: 8px;
-}
-
-.logo_footer {
-    width: 80px;
-    color: white;
 }
 
 footer ul {
