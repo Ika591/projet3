@@ -5,6 +5,11 @@ body,html {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .logo p, .plat-img h1, footer h3 {
     font-family : 'Shrikhand', cursive ;
 }
@@ -12,6 +17,16 @@ body,html {
 h3 {}
 
 /* HEADER + IMAGE */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.fa-arrow-left {
+    font-size: 18px;
+    padding-left: 25px;
+}
 
 .logo {
     text-align: center;
