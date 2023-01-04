@@ -370,9 +370,14 @@ header {
     
 }
 
-.menu:hover .price p{
+.menu:hover .price p {
     transform: translate(-50px);
 
+}
+
+.menu:hover i {
+    opacity: 1;
+    color: white;
 }
 
 .menuleft {
