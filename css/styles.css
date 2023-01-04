@@ -395,7 +395,7 @@ header {
 
 .price:hover i{
     opacity:1;
-    background-color: white;
+    color: #99E2D0
 }
 
 .price p {
@@ -406,11 +406,14 @@ header {
 }
 
 .fa-check-circle {
-    
     position: absolute;
+    background-color: white;
+    -webkit-background-clip: padding-box;
     align-self: center;
     bottom: 41%;
     opacity: 0;
+    background-clip: content-box;
+    font-size: 1.2rem;
 }
 
 .buttondiv {
