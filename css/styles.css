@@ -198,9 +198,16 @@ nav {
     right: 30px;
     top: 2px;
     font-size: 30px;
-    color: transparent;
-    -webkit-background: padding-box;
-    background: linear-gradient(#FF79DA,#9356DC); 
+    opacity: 0;
+
+}
+
+.coeur-plein:hover {
+    opacity: 1;
+    color:transparent;
+    background: linear-gradient(#9356DC,#FF79DA);
+    -webkit-background-clip: text;
+
 }
 
 
