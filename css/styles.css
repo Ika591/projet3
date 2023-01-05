@@ -57,6 +57,9 @@ nav {
     background-color: #888;
 }
 
+.gps {
+    padding-right: 15px;
+}
 
 /************************************ SECTION 1 ************************************/
 
@@ -234,6 +237,10 @@ footer ul li {
     padding-bottom: 4px;
 }
 
+.fa-ustensils {
+    padding-right: 8px;
+}
+
 .fa-hands-helping {
     font-size: small;
     padding-right: 8px;
@@ -250,9 +257,7 @@ footer ul {
 @media (min-width 768px) and (max-width 992px) {
 
     .section3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
     }
 
 
@@ -481,19 +486,6 @@ button {
 
 /************************************ FOOTER ************************************/
 
-
-footer {
-    padding-left: 20px;
-    background-color: #444;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    color: white;
-}
-
-footer a {
-    color: white;
-}
-
 footer h3 {
     font-weight: 300;
 }
@@ -502,12 +494,4 @@ footer ul li {
     padding-bottom: 4px;
 }
 
-.fa-hands-helping {
-    font-size: small;
-    padding-right: 8px;
-}
 
-footer ul {
-    list-style: none;
-    padding-left: 0px;
-}
