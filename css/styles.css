@@ -177,31 +177,30 @@ nav {
 }
 
 .bottom {
-    display: flex;
     padding-left:15px;
     padding-bottom: 15px;
+    position: relative;
 }
 
-.bottomleft {
-    flex:2
+.coeur-vide {
+    position: absolute;
+    right: 30px;
+    top: 2px;
+    font-size: 30px;
 }
 
-.bottomleft h3 {
-    margin-top: 10px;
+.coeur-vide:hover {
+    opacity:0
 }
 
-.bottomright {
-    flex:1;
-    margin: auto;
-    text-align: center;
-}
-
-.fa-heart {
-    font-size: 25px;
-}
-
-.fa-heart:hover {
-    background: linear-gradient(#9356DC,#FF79DA); 
+.coeur-plein {
+    position: absolute;
+    right: 30px;
+    top: 2px;
+    font-size: 30px;
+    color: transparent;
+    -webkit-background: padding-box;
+    background: linear-gradient(#FF79DA,#9356DC); 
 }
 
 
@@ -228,10 +227,6 @@ footer ul li {
     padding-bottom: 4px;
 }
 
-.fas {
-    padding-right: 11px;
-}
-
 .fa-hands-helping {
     font-size: small;
     padding-right: 8px;
@@ -243,6 +238,19 @@ footer ul {
 }
 
 
+/************************************ TABLETTE ************************************/
+
+@media (min-width 768px) and (max-width 992px) {
+
+    .section3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+}
+    
 
 /************************************ PAGE MENU ************************************/
 /************************************ HEADER + IMAGE ************************************/
@@ -314,13 +322,6 @@ header {
 }
 
 
-
-.fa-heart {
-    padding-right: 30px;
-    font-size: 30px;
-}
-
-
 /************************************ SECTION ************************************/
 
 
@@ -338,6 +339,21 @@ header {
     font-size: 1rem;
     padding-top: 15px;
     padding-bottom: 10px;
+}
+
+.entrees, .plats, .desserts {
+    animation-name: plats;
+    animation-duration: 0.5s;
+}
+
+@keyframes plats {
+    from{
+        transform: translateY(5px);
+    }
+
+    to{
+
+    }
 }
 
 .h2-1 {
@@ -361,7 +377,7 @@ header {
 
 @keyframes fadein {
     from{
-        transform: translateX(200px);
+        
     }
 
     to{
@@ -371,13 +387,25 @@ header {
 }
 
 .menu:hover .price p {
-    transform: translate(-50px);
+    transform: translate(-60px);
 
 }
 
 .menu:hover i {
     opacity: 1;
     color: white;
+    animation-name: icone;
+    animation-duration: 0.5s;
+}
+
+@keyframes icone {
+    from {
+        
+    }
+
+    to {
+
+    }
 }
 
 .menuleft {
@@ -465,10 +493,6 @@ footer h3 {
 
 footer ul li {
     padding-bottom: 4px;
-}
-
-.fas {
-    padding-right: 11px;
 }
 
 .fa-hands-helping {
