@@ -151,6 +151,12 @@ nav {
     padding: 40px 20px;
 }
 
+.h2, .h2 h2 {
+    background-color: #F2F2F2;
+    margin: 0;
+
+}
+
 .restaurants {
     background-color: white;
     border-radius: 15px;
@@ -250,19 +256,6 @@ footer ul {
     list-style: none;
     padding-left: 0px;
 }
-
-
-/************************************ TABLETTE ************************************/
-
-@media (min-width 768px) and (max-width 992px) {
-
-    .section3 {
-        display: flex;
-    }
-
-
-}
-    
 
 /************************************ PAGE MENU ************************************/
 /************************************ HEADER + IMAGE ************************************/
@@ -492,6 +485,44 @@ footer h3 {
 
 footer ul li {
     padding-bottom: 4px;
+}
+
+
+/************************************ ACCUEIL ************************************/
+/************************************ TABLETTE ************************************/
+
+@media (min-width:768px) and (max-width:992px) {
+
+    .section3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+
+
+}
+
+
+/************************************ ORDINATEUR ************************************/
+
+@media (min-width:992px) {
+
+    .containerlist {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .list p {
+        padding-right: 25px;
+    }
+
+    .section3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
 }
 
 
