@@ -465,7 +465,8 @@ header {
 
 .buttondiv {
     text-align: center;
-    margin-top: 30px;
+    padding: 15px 0;
+    background-color: #F2F2F2;
 }
 
 button {
@@ -516,6 +517,16 @@ footer ul li {
 
     .list p {
         padding-right: 25px;
+    }
+
+    .section1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .h2-1 {
+        margin-top: 12px;
     }
 
     .section3 {
