@@ -64,7 +64,7 @@ nav {
 /************************************ SECTION 1 ************************************/
 
 
-.section1{
+.section_1{
     background-color: #F2F2F2;
 }
 .reservation{
@@ -313,6 +313,7 @@ header {
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-top-right-radius: 35px;
     border-top-left-radius: 35px;
     margin-top: 0px;
@@ -326,11 +327,16 @@ header {
     margin-bottom: 0px;
 }
 
+.fa-heart {
+    padding-right: 40px;
+    font-size: 30px;
+}
+
 
 /************************************ SECTION ************************************/
 
 
-.section1 {
+.section1, .section_1 {
     background-color: #F2F2F2;
     padding-right: 15px;
     padding-left: 15px;
@@ -388,27 +394,7 @@ header {
     border-radius: 15px;
 }
 
-.menu:hover .price {
-    animation-name: fadein;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-}
 
-@keyframes fadein {
-    from{
-        
-    }
-
-    to{
-        background-color: #99E2D0;
-    }
-    
-}
-
-.menu:hover .price p {
-    transform: translate(-60px);
-
-}
 
 .menu:hover i {
     opacity: 1;
@@ -471,6 +457,29 @@ header {
     transition-duration: 0.5s;
 }
 
+.menu:hover .price {
+    animation-name: fadein;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from{
+        
+    }
+
+    to{
+        background-color: #99E2D0;
+        
+    }
+    
+}
+
+.menu:hover .price p {
+    transform: translate(-60px);
+
+}
+
 .fa-check-circle {
     position: absolute;
     opacity: 0;
@@ -513,6 +522,17 @@ footer ul li {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 20px;
+    }
+
+    .section1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .plats h2 {
+        margin-bottom: 0;
     }
 
 
