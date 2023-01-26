@@ -347,6 +347,15 @@ header {
 
 /************************************ SECTION ************************************/
 
+.container-title {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    width: 10%;
+    border-bottom:2px solid  #99E2D0 ;
+}
 
 .section1, .section_1 {
     background-color: #F2F2F2;
@@ -367,7 +376,9 @@ header {
 .menu {
     animation-name: plats;
     animation-duration: 1.5s;
+    text-overflow: ellipsis;
 }
+
 
 @keyframes plats {
     from{
@@ -407,7 +418,8 @@ header {
 }
 
 .menu:hover .price p {
-    transform: translate(-200%);
+    transform: translate(-150%);
+    position: relative;
 
 }
 
