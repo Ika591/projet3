@@ -394,24 +394,19 @@ header {
     border-radius: 15px;
 }
 
+.menu:hover .price p {
+    transform: translate(-200%);
 
+}
 
 .menu:hover i {
     opacity: 1;
     color: white;
-    animation-name: icone;
-    animation-duration: 0.5s;
+    right:40%;
+    top:30%;
+    transform:rotateZ(360deg)
 }
 
-@keyframes icone {
-    from {
-        
-    }
-
-    to {
-
-    }
-}
 
 .menuleft {
     flex:5;
@@ -464,10 +459,13 @@ header {
     border-bottom-right-radius: 15px;
 }
 
-.menu:hover .price p {
-    transform: translate(-60px);
-
+.check p {
+    position: absolute;
+    right:1px;
+    bottom:1px;
 }
+
+
 
 .menu:hover .check {
     width: 100%;
@@ -480,6 +478,7 @@ header {
     position: absolute;
     opacity: 0;
     font-size: 1.2rem;
+    transition: transform 1s;
 }
 
 .buttondiv {
