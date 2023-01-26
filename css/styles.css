@@ -54,7 +54,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #888;
+    background-color: #DCDCDC;
+    box-shadow
 }
 
 .gps {
@@ -96,6 +97,14 @@ nav {
     padding-top: 25px;
     padding-bottom: 25px;
     box-sizing: border-box;
+}
+
+.list:hover {
+    filter: brightness(95%);
+}
+
+.list:hover .number {
+    filter: brightness(95%);
 }
 
 .list a {
@@ -340,7 +349,7 @@ header {
 
 .title {
     position: absolute;
-    width: 8%;
+    width: 40px;
     border-bottom:2px solid  #99E2D0 ;
     padding-top: 3px;
 }
@@ -354,8 +363,7 @@ header {
 }
 
 .section1 h2 {
-    color: #777;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -425,6 +433,9 @@ header {
     background-color: #99E2D0;
 }
 
+.menu:hover .menuleft {
+    width: 65%;
+}
 
 .menuleft {
     flex:5;
@@ -443,6 +454,12 @@ header {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 2px;
+}
+
+.menuleft h3, .menuleft p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
