@@ -307,22 +307,6 @@ header {
     width: 100%;
 }
 
-.francaise {
-    background-image: url(../images/restaurants/française.jpg);
-}
-
-.delice {
-    background-image: url(../images/restaurants/délice.jpg);
-}
-
-.note {
-    background-image: url(../images/restaurants/note.jpg);
-}
-
-.palette {
-    background-image: url(../images/restaurants/palette.jpg);
-}
-
 .h1div {
     background-color: #F2F2F2;
     display: flex;
@@ -422,8 +406,9 @@ header {
 }
 
 .menu:hover .price p {
-    transform: translate(-70px);
+    transform: translate(-65px);
     position: relative;
+    bottom: 13px;
 
 }
 
@@ -433,6 +418,11 @@ header {
     right:40%;
     top:30%;
     transform:rotateZ(360deg)
+}
+
+.menu:hover .check {
+    width: 100%;
+    background-color: #99E2D0;
 }
 
 
@@ -458,7 +448,7 @@ header {
 
 
 .price {
-    flex:1;
+    width: 65px;
     font-weight: bold;
     text-align: end;
     position: relative;
@@ -479,7 +469,7 @@ header {
 
 .check {
     height: 100%;
-    width: 0%;
+    width: 65px;
     transition: width 0.7s;
     position: absolute;
     right:0;
@@ -492,15 +482,6 @@ header {
     right:1px;
     bottom:1px;
 }
-
-
-
-.menu:hover .check {
-    width: 100%;
-    background-color: #99E2D0;
-}
-
-
 
 .fa-check-circle {
     position: absolute;
