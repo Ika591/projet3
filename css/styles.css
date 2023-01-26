@@ -342,6 +342,7 @@ header {
 
 .fa-heart {
     font-size: 30px;
+    padding-right: 40px;
 }
 
 
@@ -349,7 +350,7 @@ header {
 
 .title {
     position: absolute;
-    width: 10%;
+    width: 8%;
     border-bottom:2px solid  #99E2D0 ;
     padding-top: 3px;
 }
@@ -365,7 +366,7 @@ header {
 .section1 h2 {
     color: #777;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 16px;
     padding-top: 15px;
     padding-bottom: 10px;
 }
@@ -415,7 +416,7 @@ header {
 }
 
 .menu:hover .price p {
-    transform: translate(-150%);
+    transform: translate(-70px);
     position: relative;
 
 }
