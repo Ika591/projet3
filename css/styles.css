@@ -294,6 +294,7 @@ nav {
     opacity: 1;
     color:transparent;
     background: linear-gradient(#9356DC,#FF79DA);
+    background-clip: content-box;
     -webkit-background-clip: text;
 
 }
@@ -411,10 +412,9 @@ header {
 /************************************ SECTION ************************************/
 
 .title {
-    position: absolute;
     width: 40px;
     border-bottom:2px solid  #99E2D0 ;
-    padding-top: 3px;
+    margin-bottom: 15px;
 }
 
 .section1, .section_1 {
@@ -429,8 +429,10 @@ header {
     font-weight: 400;
     font-size: 16px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    margin-bottom: 3px;
 }
+
+
 
 .menu {
     animation-name: plats;
