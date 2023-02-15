@@ -287,6 +287,7 @@ nav {
     top: 2px;
     font-size: 30px;
     opacity: 0;
+    transition-duration: 1.5s;
 
 }
 
@@ -401,11 +402,19 @@ header {
 .h1div .fa-heart {
     font-size: 25px;
     padding-right: 20px;
+    animation-duration: 1.5s;
 }
 
-.fa-heart {
-    font-size: 30px;
+.fa-heart:hover {
+    opacity: 1;
+    color:transparent;
+    background: linear-gradient(#9356DC,#FF79DA);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+}
 
+.coeur-vide-menu, .coeur-plein-menu {
+    padding-top: 20px;
 }
 
 
