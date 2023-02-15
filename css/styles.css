@@ -437,7 +437,6 @@ header {
 .menu {
     animation-name: plats;
     animation-duration: 1.5s;
-    animation-delay: 3s;
     text-overflow: ellipsis;
 }
 
@@ -455,15 +454,11 @@ header {
 }
 
 .menu_2 {
-    animation-delay: 3.2s;
+    animation-delay: 0.3s;
 }
 
 .menu_3 {
-    animation-delay: 3.4s;
-}
-
-.menu_4 {
-    animation-delay: 3.6s;
+    animation-delay: 0.6s;
 }
 
 .h2-1 {
